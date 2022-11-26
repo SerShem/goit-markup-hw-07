@@ -1,7 +1,10 @@
-@import 'base/constant';
-@import 'base/normalize';
-@import 'base/selectors';
-@import './head_foot';
-@import './index_main';
-@import './index_modal';
-@import './portfolio_main';
+@import 'utils/variables';
+@import 'utils/reset';
+@import 'utils/base';
+@import 'component/header';
+@import 'component/footer';
+@import 'pages/index_hero';
+@import 'pages/index';
+@import 'component/form/m_index';
+@import 'component/form/f_index';
+@import 'pages/portfolio';

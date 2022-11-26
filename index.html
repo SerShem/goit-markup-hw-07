@@ -11,7 +11,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 		rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
@@ -70,7 +70,7 @@
 		<!--uor features-->
 		<section class="section">
 			<div class="container">
-				<h2 class="titel-hidden">Наші переваги</h2>
+				<h2 class="hidden">Наші переваги</h2>
 				<ul class="container__list">
 					<li class="container__item">
 						<div class="container-blok">
@@ -128,20 +128,20 @@
 			<div class="container">
 				<h2 class="sections__titel">Чим ми займаємося</h2>
 				<ul class="container__list">
-					<li class="item">
+					<li class="container__item picture-conteiner">
 						<div class="gallery-section__box">
 							<img src="./images/desk_ofis.jpg" alt="людина працює за компютером та планшетом" height="294" width="370">
 							<p class="gallery-section__text">Десктопні додатки</p>
 						</div>
 					</li>
-					<li class="item">
+					<li class="container__item picture-conteiner">
 						<div class="gallery-section__box">
 							<img src="./images/smartfones_working.jpg" alt="людина працює за ноутбуком з телефоном в руці"
 								height="294" width="370">
 							<p class="gallery-section__text">Мобільні додатки</p>
 						</div>
 					</li>
-					<li class="item">
+					<li class="container__item picture-conteiner">
 						<div class="gallery-section__box">
 							<img src="./images/colour_graphic.jpg" alt="людина вибирає колір в палітрі колюрів на планшеті "
 								height="294" width="370">
@@ -363,7 +363,7 @@
 	</main>
 	<footer class="footer-section">
 		<div class="container footer-container">
-			<div>
+			<div class="footer-address__box">
 				<a class="footer__logo" href="./index.html" lang="en">
 					<span class="accent">Web</span>Studio
 				</a>
@@ -424,8 +424,10 @@
 			<form class="footer-form">
 				<p class="footer-form__p">Підпишіться на розсилку</p>
 				<div class="footer-form__box">
-					<input type="text" name="" placeholder="E-mail" class="footer-form__input">
-					<button class="footer-form__button">
+					<label for="sign_mail">
+						<input type="text" name="sign_for_mail" id="sign_mail" placeholder="E-mail" class="footer-form__input">
+					</label>
+					<button class="footer-form__button" type="submit">
 						Підписатися
 						<svg class="footer-form__svg" width="20" height="20">
 							<use href="./images/icons.svg#icon-logo-send"></use>
@@ -470,8 +472,8 @@
 					<textarea name="coment" id="coment" class="backdrop-form__textarea" placeholder="Введіть текст"></textarea>
 				</div>
 				<div class="backdrop-form__approval">
-					<input type="checkbox" id="appruv" name="appruv" class="form-approval__sheck titel-hidden">
 					<label for="appruv" class="form-approval__label">
+						<input type="checkbox" id="appruv" name="appruv" class="form-approval__sheck">
 						<span class="form-approval__span">
 							<svg class="" width="16" height="15">
 								<use href="./images/icons.svg#icon-check"></use>
