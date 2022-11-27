@@ -49,6 +49,14 @@ a {
   text-decoration: none;
 }
 
+body {
+  color: #757575;
+  font-family: "Roboto";
+  background: #fff;
+  font-size: 14px;
+  letter-spacing: 0.03px;
+}
+
 .accent {
   color: var(--target-blue);
 }
